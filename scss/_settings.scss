@@ -88,6 +88,15 @@ li{
 	display: inline;
 }
 
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+//NAV
 #active{
 	border-bottom: 1px solid #888;
 }
@@ -123,13 +132,10 @@ li{
 	color: #373737;
 }
 
+
+//HOME
 .text-box{
 	font-size: 13px;
-}
-
-.container{
-	// padding: 0 15px 0 15px;
-	// rem-calc(30);
 }
 
 .suit-up-box{
@@ -145,6 +151,30 @@ li{
 	font: 500 18px 'Open Sans', sans-serif;
 }
 
+#wedding-info{
+	font-size: 13px;
+	text-align: center;
+}
+
+#wedding-header{
+	margin: 10px 0 0 0;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.section-header{
+  line-height: 180%;
+  color: #464646;
+  padding: .5em 0;
+  font-size: 16px;
+}
+
+.section-content{
+	font-size: 14px;
+}
+
+
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0,0,0,0.13);
@@ -154,6 +184,7 @@ hr.styled-hr {
   height: 1px;
   margin: 0 auto;
   text-align: center;
+  // margin: 10px 0 10px 0;
   // width: 100%;
 }
 
@@ -167,13 +198,6 @@ hr {
   border-width: 1px;
 }
 
-.bold{
-	font-weight: bold;
-}
-
-.italic{
-	font-style: italic;
-}
 
 .vertical-divider {
   visibility: hidden;

@@ -76,11 +76,21 @@ li {
 }
 
 /* line 91, ../scss/_settings.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 95, ../scss/_settings.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 100, ../scss/_settings.scss */
 #active {
   border-bottom: 1px solid #888;
 }
 
-/* line 95, ../scss/_settings.scss */
+/* line 104, ../scss/_settings.scss */
 #inactive:hover {
   border-bottom: 1px dashed #888;
 }
@@ -89,7 +99,7 @@ li {
   font-family: Josefin Sans;
   src: url(/assets/Josefin-Sans/JosefinSans-Bold.tff);
 }
-/* line 103, ../scss/_settings.scss */
+/* line 112, ../scss/_settings.scss */
 #nav-wrap .nav-container a {
   text-decoration: none;
   font: 600 16px 'Josefin Sans', sans-serif;
@@ -104,7 +114,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 117, ../scss/_settings.scss */
+/* line 126, ../scss/_settings.scss */
 .headline {
   font-size: 17px;
   padding: .5em 0 0.8em 0;
@@ -114,12 +124,12 @@ li {
   color: #373737;
 }
 
-/* line 126, ../scss/_settings.scss */
+/* line 137, ../scss/_settings.scss */
 .text-box {
   font-size: 13px;
 }
 
-/* line 135, ../scss/_settings.scss */
+/* line 141, ../scss/_settings.scss */
 .suit-up-box {
   color: #fff !important;
   padding: 5px 20px;
@@ -133,7 +143,34 @@ li {
   font: 500 18px 'Open Sans', sans-serif;
 }
 
-/* line 148, ../scss/_settings.scss */
+/* line 154, ../scss/_settings.scss */
+#wedding-info {
+  font-size: 13px;
+  text-align: center;
+}
+
+/* line 159, ../scss/_settings.scss */
+#wedding-header {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 166, ../scss/_settings.scss */
+.section-header {
+  line-height: 180%;
+  color: #464646;
+  padding: .5em 0;
+  font-size: 16px;
+}
+
+/* line 173, ../scss/_settings.scss */
+.section-content {
+  font-size: 14px;
+}
+
+/* line 178, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -145,7 +182,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 160, ../scss/_settings.scss */
+/* line 191, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -156,17 +193,7 @@ hr {
   border-width: 1px;
 }
 
-/* line 170, ../scss/_settings.scss */
-.bold {
-  font-weight: bold;
-}
-
-/* line 174, ../scss/_settings.scss */
-.italic {
-  font-style: italic;
-}
-
-/* line 178, ../scss/_settings.scss */
+/* line 202, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -188,7 +215,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 203, ../scss/_settings.scss */
+/* line 227, ../scss/_settings.scss */
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
