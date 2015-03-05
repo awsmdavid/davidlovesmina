@@ -13,29 +13,31 @@
 
 /* line 22, ../scss/_settings.scss */
 footer {
-  float: right;
+  background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
+  vertical-align: middle;
+  margin-bottom: 0;
 }
 
-/* line 37, ../scss/_settings.scss */
+/* line 28, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 42, ../scss/_settings.scss */
+/* line 33, ../scss/_settings.scss */
 .header-align-outer {
   display: table;
   overflow: hidden;
   padding-bottom: 44px;
 }
 
-/* line 49, ../scss/_settings.scss */
+/* line 39, ../scss/_settings.scss */
 .header-align-mid {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 54, ../scss/_settings.scss */
+/* line 44, ../scss/_settings.scss */
 #logo {
   margin-top: 50px;
   text-align: center;
@@ -48,12 +50,12 @@ footer {
   position: relative;
 }
 
-/* line 66, ../scss/_settings.scss */
+/* line 56, ../scss/_settings.scss */
 #logo span {
   vertical-align: top !important;
 }
 
-/* line 70, ../scss/_settings.scss */
+/* line 60, ../scss/_settings.scss */
 .nav-container {
   float: right;
   position: relative;
@@ -62,7 +64,7 @@ footer {
   z-index: 2;
 }
 
-/* line 79, ../scss/_settings.scss */
+/* line 68, ../scss/_settings.scss */
 ul {
   display: block;
   list-style-type: disc;
@@ -73,29 +75,29 @@ ul {
   -webkit-padding-start: 40px;
 }
 
-/* line 89, ../scss/_settings.scss */
+/* line 78, ../scss/_settings.scss */
 li {
   float: left;
   list-style: none;
   display: inline;
 }
 
-/* line 95, ../scss/_settings.scss */
+/* line 84, ../scss/_settings.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 99, ../scss/_settings.scss */
+/* line 88, ../scss/_settings.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 104, ../scss/_settings.scss */
+/* line 93, ../scss/_settings.scss */
 #active {
   border-bottom: 1px solid #888;
 }
 
-/* line 108, ../scss/_settings.scss */
+/* line 97, ../scss/_settings.scss */
 #inactive:hover {
   border-bottom: 1px dashed #888;
 }
@@ -104,7 +106,7 @@ li {
   font-family: Josefin Sans;
   src: url(/assets/Josefin-Sans/JosefinSans-Bold.tff);
 }
-/* line 116, ../scss/_settings.scss */
+/* line 105, ../scss/_settings.scss */
 #nav-wrap .nav-container a {
   text-decoration: none;
   font: 600 16px 'Josefin Sans', sans-serif;
@@ -119,7 +121,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 130, ../scss/_settings.scss */
+/* line 119, ../scss/_settings.scss */
 .headline {
   font-size: 17px;
   padding: .5em 0 0.8em 0;
@@ -129,12 +131,12 @@ li {
   color: #373737;
 }
 
-/* line 141, ../scss/_settings.scss */
+/* line 130, ../scss/_settings.scss */
 .text-box {
   font-size: 13px;
 }
 
-/* line 145, ../scss/_settings.scss */
+/* line 134, ../scss/_settings.scss */
 .suit-up-box, .submit {
   color: #fff !important;
   padding: 5px 20px;
@@ -148,13 +150,13 @@ li {
   font: 500 18px 'Open Sans', sans-serif;
 }
 
-/* line 158, ../scss/_settings.scss */
+/* line 147, ../scss/_settings.scss */
 #wedding-info {
   font-size: 13px;
   text-align: center;
 }
 
-/* line 163, ../scss/_settings.scss */
+/* line 152, ../scss/_settings.scss */
 #wedding-header {
   margin: 10px 0 0 0;
   font-size: 18px;
@@ -162,7 +164,7 @@ li {
   font-weight: bold;
 }
 
-/* line 170, ../scss/_settings.scss */
+/* line 159, ../scss/_settings.scss */
 .section-header {
   line-height: 180%;
   color: #464646;
@@ -170,17 +172,17 @@ li {
   font-size: 16px;
 }
 
-/* line 177, ../scss/_settings.scss */
+/* line 166, ../scss/_settings.scss */
 .section-content {
   font-size: 13px;
 }
 
-/* line 181, ../scss/_settings.scss */
+/* line 170, ../scss/_settings.scss */
 .row {
   padding: 15px 0 15px 0;
 }
 
-/* line 185, ../scss/_settings.scss */
+/* line 174, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -192,7 +194,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 187, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -203,7 +205,7 @@ hr {
   border-width: 1px;
 }
 
-/* line 209, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -225,7 +227,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 231, ../scss/_settings.scss */
+/* line 220, ../scss/_settings.scss */
 .party-pics {
   z-index: 10;
   width: 214px;
@@ -236,19 +238,19 @@ hr {
   padding: 0 15px 10px 0;
 }
 
-/* line 241, ../scss/_settings.scss */
+/* line 230, ../scss/_settings.scss */
 .party-desc {
   text-align: left;
   font-size: 14px;
 }
 
-/* line 246, ../scss/_settings.scss */
+/* line 235, ../scss/_settings.scss */
 .thanks-desc {
   text-align: left;
   font-size: 14px;
 }
 
-/* line 254, ../scss/_settings.scss */
+/* line 243, ../scss/_settings.scss */
 .rsvp-panel {
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -256,43 +258,43 @@ hr {
   margin-top: 30px;
 }
 
-/* line 260, ../scss/_settings.scss */
+/* line 249, ../scss/_settings.scss */
 .rsvp-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 265, ../scss/_settings.scss */
+/* line 254, ../scss/_settings.scss */
 .rsvp-panel form input, .rsvp-panel form span {
   height: 50px;
 }
 
-/* line 268, ../scss/_settings.scss */
+/* line 257, ../scss/_settings.scss */
 .rsvp-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 273, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .rsvp-panel p {
   font-size: 13px;
   font-weight: 200;
   margin-left: 25%;
 }
 
-/* line 278, ../scss/_settings.scss */
+/* line 267, ../scss/_settings.scss */
 .rsvp-panel .button {
   margin-left: 35%;
 }
 
-/* line 282, ../scss/_settings.scss */
+/* line 271, ../scss/_settings.scss */
 .incorrect-pw-msg {
   color: red;
 }
 
-/* line 286, ../scss/_settings.scss */
+/* line 275, ../scss/_settings.scss */
 #password {
   width: 400px;
 }

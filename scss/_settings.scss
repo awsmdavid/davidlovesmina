@@ -20,19 +20,10 @@
 }
 
 footer{
-	float: right;
+	background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
+	vertical-align: middle;
+	margin-bottom: 0;
 }
-
-
-
-// #nav-wrap .nav-container {
-//   float: right;
-//   position: relative;
-//   left: -50%;
-//   text-align: left;
-//   margin-top: 10px;
-//   z-index: 2;
-// }
 
 .grey-bg{
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
@@ -42,7 +33,6 @@ footer{
 .header-align-outer{
 	display: table;
 	overflow: hidden;
-	// height: 300px;
 	padding-bottom: 44px;
 }
 
@@ -70,7 +60,6 @@ footer{
 .nav-container {
 	float: right;
 	position: relative;
-	// left: -50%;
 	text-align: left;
 	margin-top: 10px;
 	z-index: 2;
