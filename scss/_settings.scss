@@ -98,23 +98,21 @@ li{
 	border-bottom: 1px dashed #888;
 }
 
-@font-face {
-    font-family: Josefin Sans;
-    src: url(/assets/Josefin-Sans/JosefinSans-Bold.tff);
-}
+
 #nav-wrap .nav-container a {
-  text-decoration: none;
-  font: 600 16px 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  margin: 10px 15px;
-  float: left;
-  color: #666;
-  letter-spacing: 2px;
-  padding: 1px 2px;
-  text-align: center;
-  white-space: nowrap;
-  border-bottom: 1px solid #fff;
-}
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 10px 15px;
+	float: left;
+	color: #666;
+	letter-spacing: 2px;
+	padding: 1px 2px;
+	text-align: center;
+	white-space: nowrap;
+	border-bottom: 1px solid #fff;
+	}
 
 .headline{
 	font-size: 17px;

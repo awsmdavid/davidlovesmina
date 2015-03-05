@@ -18,6 +18,3 @@ RSVP
 
 Honeyfund
 - add paypal and registry links
-
-footer
-- add
