@@ -1,4 +1,9 @@
 /* line 11, ../scss/_settings.scss */
+.right {
+  float: right;
+}
+
+/* line 15, ../scss/_settings.scss */
 .header {
   color: #444;
   text-transform: uppercase;
@@ -6,26 +11,26 @@
   font: 400 36px 'Open Sans', sans-serif;
 }
 
-/* line 29, ../scss/_settings.scss */
+/* line 33, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 34, ../scss/_settings.scss */
+/* line 38, ../scss/_settings.scss */
 .header-align-outer {
   display: table;
   overflow: hidden;
   padding-bottom: 44px;
 }
 
-/* line 41, ../scss/_settings.scss */
+/* line 45, ../scss/_settings.scss */
 .header-align-mid {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 46, ../scss/_settings.scss */
+/* line 50, ../scss/_settings.scss */
 #logo {
   margin-top: 50px;
   text-align: center;
@@ -38,12 +43,12 @@
   position: relative;
 }
 
-/* line 58, ../scss/_settings.scss */
+/* line 62, ../scss/_settings.scss */
 #logo span {
   vertical-align: top !important;
 }
 
-/* line 62, ../scss/_settings.scss */
+/* line 66, ../scss/_settings.scss */
 .nav-container {
   float: right;
   position: relative;
@@ -52,7 +57,7 @@
   z-index: 2;
 }
 
-/* line 71, ../scss/_settings.scss */
+/* line 75, ../scss/_settings.scss */
 ul {
   display: block;
   list-style-type: disc;
@@ -63,19 +68,19 @@ ul {
   -webkit-padding-start: 40px;
 }
 
-/* line 81, ../scss/_settings.scss */
+/* line 85, ../scss/_settings.scss */
 li {
   float: left;
   list-style: none;
   display: inline;
 }
 
-/* line 87, ../scss/_settings.scss */
+/* line 91, ../scss/_settings.scss */
 #active {
   border-bottom: 1px solid #888;
 }
 
-/* line 91, ../scss/_settings.scss */
+/* line 95, ../scss/_settings.scss */
 #inactive:hover {
   border-bottom: 1px dashed #888;
 }
@@ -84,7 +89,7 @@ li {
   font-family: Josefin Sans;
   src: url(/assets/Josefin-Sans/JosefinSans-Bold.tff);
 }
-/* line 99, ../scss/_settings.scss */
+/* line 103, ../scss/_settings.scss */
 #nav-wrap .nav-container a {
   text-decoration: none;
   font: 600 16px 'Josefin Sans', sans-serif;
@@ -99,7 +104,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 113, ../scss/_settings.scss */
+/* line 117, ../scss/_settings.scss */
 .headline {
   font-size: 17px;
   padding: .5em 0 0.8em 0;
@@ -109,12 +114,12 @@ li {
   color: #373737;
 }
 
-/* line 122, ../scss/_settings.scss */
+/* line 126, ../scss/_settings.scss */
 .text-box {
   font-size: 13px;
 }
 
-/* line 126, ../scss/_settings.scss */
+/* line 135, ../scss/_settings.scss */
 .suit-up-box {
   color: #fff !important;
   padding: 5px 20px;
@@ -128,7 +133,7 @@ li {
   font: 500 18px 'Open Sans', sans-serif;
 }
 
-/* line 139, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -140,7 +145,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 151, ../scss/_settings.scss */
+/* line 160, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -151,17 +156,17 @@ hr {
   border-width: 1px;
 }
 
-/* line 161, ../scss/_settings.scss */
+/* line 170, ../scss/_settings.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 165, ../scss/_settings.scss */
+/* line 174, ../scss/_settings.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 169, ../scss/_settings.scss */
+/* line 178, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -183,7 +188,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 194, ../scss/_settings.scss */
+/* line 203, ../scss/_settings.scss */
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }

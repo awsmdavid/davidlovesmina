@@ -8,6 +8,10 @@
 
 //General
 
+.right{
+	float: right;
+}
+
 .header{
 	color: #444;
 	text-transform: uppercase;
@@ -121,6 +125,11 @@ li{
 
 .text-box{
 	font-size: 13px;
+}
+
+.container{
+	// padding: 0 15px 0 15px;
+	// rem-calc(30);
 }
 
 .suit-up-box{
@@ -276,9 +285,9 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
-// $total-columns: 12;
-// $column-gutter: rem-calc(30);
+$row-width: rem-calc(1000);
+$total-columns: 12;
+$column-gutter: rem-calc(30);
 
 // $last-child-float: $opposite-direction;
 
