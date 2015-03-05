@@ -175,7 +175,12 @@ li {
   font-size: 13px;
 }
 
-/* line 182, ../scss/_settings.scss */
+/* line 181, ../scss/_settings.scss */
+.row {
+  padding: 15px 0 15px 0;
+}
+
+/* line 185, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -187,7 +192,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 195, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -198,7 +203,7 @@ hr {
   border-width: 1px;
 }
 
-/* line 206, ../scss/_settings.scss */
+/* line 209, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -220,7 +225,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 228, ../scss/_settings.scss */
+/* line 231, ../scss/_settings.scss */
 .party-pics {
   z-index: 10;
   width: 214px;
@@ -231,8 +236,14 @@ hr {
   padding: 0 15px 10px 0;
 }
 
-/* line 238, ../scss/_settings.scss */
+/* line 241, ../scss/_settings.scss */
 .party-desc {
+  text-align: left;
+  font-size: 14px;
+}
+
+/* line 246, ../scss/_settings.scss */
+.thanks-desc {
   text-align: left;
   font-size: 14px;
 }
@@ -6569,7 +6580,7 @@ table tfoot tr td {
 /* line 107, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr th,
 table tr td {
-  padding: 0.5625rem 0;
+  padding: 0.5625rem 0.625rem;
   font-size: 0.875rem;
   color: #222222;
   text-align: left;
