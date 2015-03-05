@@ -225,6 +225,23 @@ body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+/* line 236, ../scss/_settings.scss */
+.party-pics {
+  z-index: 10;
+  width: 214px;
+  position: relative;
+  float: left;
+  max-width: 100%;
+  clear: left;
+  padding: 0 15px 10px 0;
+}
+
+/* line 246, ../scss/_settings.scss */
+.party-desc {
+  text-align: left;
+  font-size: 14px;
+}
+
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
