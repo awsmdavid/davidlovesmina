@@ -142,7 +142,7 @@ li{
 	font-size: 13px;
 }
 
-.suit-up-box{
+.suit-up-box, .submit{
 	color: #fff !important;
 	padding: 5px 20px;
 	display: inline-block;
@@ -248,6 +248,44 @@ hr {
 	font-size: 14px;
 }
 
+
+//rsvp
+
+.rsvp-panel {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+}
+.rsvp-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+.rsvp-panel form input, .rsvp-panel form span {
+  height: 50px;
+}
+.rsvp-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+.rsvp-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 25%;
+}
+.rsvp-panel .button {
+  margin-left: 35%;
+}
+
+.incorrect-pw-msg{
+	color: red;
+}
+
+#password{
+	width: 400px;
+}
 
 // Table of Contents
 // Foundation Settings

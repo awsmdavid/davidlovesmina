@@ -135,7 +135,7 @@ li {
 }
 
 /* line 145, ../scss/_settings.scss */
-.suit-up-box {
+.suit-up-box, .submit {
   color: #fff !important;
   padding: 5px 20px;
   display: inline-block;
@@ -246,6 +246,55 @@ hr {
 .thanks-desc {
   text-align: left;
   font-size: 14px;
+}
+
+/* line 254, ../scss/_settings.scss */
+.rsvp-panel {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* line 260, ../scss/_settings.scss */
+.rsvp-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+
+/* line 265, ../scss/_settings.scss */
+.rsvp-panel form input, .rsvp-panel form span {
+  height: 50px;
+}
+
+/* line 268, ../scss/_settings.scss */
+.rsvp-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+
+/* line 273, ../scss/_settings.scss */
+.rsvp-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 25%;
+}
+
+/* line 278, ../scss/_settings.scss */
+.rsvp-panel .button {
+  margin-left: 35%;
+}
+
+/* line 282, ../scss/_settings.scss */
+.incorrect-pw-msg {
+  color: red;
+}
+
+/* line 286, ../scss/_settings.scss */
+#password {
+  width: 400px;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
