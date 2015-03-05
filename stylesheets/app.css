@@ -11,26 +11,31 @@
   font: 400 36px 'Open Sans', sans-serif;
 }
 
-/* line 33, ../scss/_settings.scss */
+/* line 22, ../scss/_settings.scss */
+footer {
+  float: right;
+}
+
+/* line 37, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 38, ../scss/_settings.scss */
+/* line 42, ../scss/_settings.scss */
 .header-align-outer {
   display: table;
   overflow: hidden;
   padding-bottom: 44px;
 }
 
-/* line 45, ../scss/_settings.scss */
+/* line 49, ../scss/_settings.scss */
 .header-align-mid {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 50, ../scss/_settings.scss */
+/* line 54, ../scss/_settings.scss */
 #logo {
   margin-top: 50px;
   text-align: center;
@@ -43,12 +48,12 @@
   position: relative;
 }
 
-/* line 62, ../scss/_settings.scss */
+/* line 66, ../scss/_settings.scss */
 #logo span {
   vertical-align: top !important;
 }
 
-/* line 66, ../scss/_settings.scss */
+/* line 70, ../scss/_settings.scss */
 .nav-container {
   float: right;
   position: relative;
@@ -57,7 +62,7 @@
   z-index: 2;
 }
 
-/* line 75, ../scss/_settings.scss */
+/* line 79, ../scss/_settings.scss */
 ul {
   display: block;
   list-style-type: disc;
@@ -68,29 +73,29 @@ ul {
   -webkit-padding-start: 40px;
 }
 
-/* line 85, ../scss/_settings.scss */
+/* line 89, ../scss/_settings.scss */
 li {
   float: left;
   list-style: none;
   display: inline;
 }
 
-/* line 91, ../scss/_settings.scss */
+/* line 95, ../scss/_settings.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 95, ../scss/_settings.scss */
+/* line 99, ../scss/_settings.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 100, ../scss/_settings.scss */
+/* line 104, ../scss/_settings.scss */
 #active {
   border-bottom: 1px solid #888;
 }
 
-/* line 104, ../scss/_settings.scss */
+/* line 108, ../scss/_settings.scss */
 #inactive:hover {
   border-bottom: 1px dashed #888;
 }
@@ -99,7 +104,7 @@ li {
   font-family: Josefin Sans;
   src: url(/assets/Josefin-Sans/JosefinSans-Bold.tff);
 }
-/* line 112, ../scss/_settings.scss */
+/* line 116, ../scss/_settings.scss */
 #nav-wrap .nav-container a {
   text-decoration: none;
   font: 600 16px 'Josefin Sans', sans-serif;
@@ -114,7 +119,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 126, ../scss/_settings.scss */
+/* line 130, ../scss/_settings.scss */
 .headline {
   font-size: 17px;
   padding: .5em 0 0.8em 0;
@@ -124,12 +129,12 @@ li {
   color: #373737;
 }
 
-/* line 137, ../scss/_settings.scss */
+/* line 141, ../scss/_settings.scss */
 .text-box {
   font-size: 13px;
 }
 
-/* line 141, ../scss/_settings.scss */
+/* line 145, ../scss/_settings.scss */
 .suit-up-box {
   color: #fff !important;
   padding: 5px 20px;
@@ -143,13 +148,13 @@ li {
   font: 500 18px 'Open Sans', sans-serif;
 }
 
-/* line 154, ../scss/_settings.scss */
+/* line 158, ../scss/_settings.scss */
 #wedding-info {
   font-size: 13px;
   text-align: center;
 }
 
-/* line 159, ../scss/_settings.scss */
+/* line 163, ../scss/_settings.scss */
 #wedding-header {
   margin: 10px 0 0 0;
   font-size: 18px;
@@ -157,7 +162,7 @@ li {
   font-weight: bold;
 }
 
-/* line 166, ../scss/_settings.scss */
+/* line 170, ../scss/_settings.scss */
 .section-header {
   line-height: 180%;
   color: #464646;
@@ -165,12 +170,12 @@ li {
   font-size: 16px;
 }
 
-/* line 173, ../scss/_settings.scss */
+/* line 177, ../scss/_settings.scss */
 .section-content {
-  font-size: 14px;
+  font-size: 13px;
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 182, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -182,7 +187,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 191, ../scss/_settings.scss */
+/* line 195, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -193,7 +198,7 @@ hr {
   border-width: 1px;
 }
 
-/* line 202, ../scss/_settings.scss */
+/* line 206, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -215,7 +220,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 227, ../scss/_settings.scss */
+/* line 231, ../scss/_settings.scss */
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }

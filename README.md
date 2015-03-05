@@ -4,4 +4,4 @@ TODO:
 - Resize photos
 - RSVP page (PW Protect)
 - Update TODO
-
+- Add footer
