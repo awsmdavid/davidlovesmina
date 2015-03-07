@@ -23,6 +23,7 @@ footer{
 	background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
 	vertical-align: middle;
 	margin-bottom: 0;
+	text-align: right;
 }
 
 .grey-bg{
@@ -33,7 +34,7 @@ footer{
 .header-align-outer{
 	display: table;
 	overflow: hidden;
-	padding-bottom: 44px;
+	padding-bottom: 24px;
 }
 
 .header-align-mid {
@@ -61,8 +62,9 @@ footer{
 	float: right;
 	position: relative;
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 50px;
 	z-index: 2;
+	// paddin
 }
 
 ul{
@@ -103,6 +105,7 @@ li{
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 600;
+	font-size: 16px;
 	text-transform: uppercase;
 	margin: 10px 15px;
 	float: left;
@@ -128,10 +131,21 @@ li{
 .text-box{
 	font-size: 13px;
 }
-
-.suit-up-box, .submit{
+.suit-up-box{
 	color: #fff !important;
-	padding: 5px 20px;
+	padding: 15px 30px;
+	display: inline-block;
+	background: #333;
+	text-transform: uppercase;
+	border-radius: 2px;
+	line-height: 42px;
+	letter-spacing: 1px;
+	font: 500 48px 'Open Sans', sans-serif;
+	cursor: pointer;
+}
+
+.submit{
+	color: #fff !important;
 	display: inline-block;
 	padding: 7px 12px;
 	background: #333;
@@ -235,6 +249,7 @@ hr {
 	font-size: 14px;
 }
 
+//honeyfund
 
 //rsvp
 
@@ -359,7 +374,8 @@ $column-gutter: rem-calc(30);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: 'Open Sans', Helvetica, sans-serif;
+// $font-family-sans-serif: 'Open Sans', Helvetica, sans-serif;
+$font-family-sans-serif: Consolas, "Liberation Mono", Courier, monospace;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 

@@ -16,28 +16,29 @@ footer {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   vertical-align: middle;
   margin-bottom: 0;
+  text-align: right;
 }
 
-/* line 28, ../scss/_settings.scss */
+/* line 29, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 33, ../scss/_settings.scss */
+/* line 34, ../scss/_settings.scss */
 .header-align-outer {
   display: table;
   overflow: hidden;
-  padding-bottom: 44px;
+  padding-bottom: 24px;
 }
 
-/* line 39, ../scss/_settings.scss */
+/* line 40, ../scss/_settings.scss */
 .header-align-mid {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 44, ../scss/_settings.scss */
+/* line 45, ../scss/_settings.scss */
 #logo {
   margin-top: 50px;
   text-align: center;
@@ -50,21 +51,21 @@ footer {
   position: relative;
 }
 
-/* line 56, ../scss/_settings.scss */
+/* line 57, ../scss/_settings.scss */
 #logo span {
   vertical-align: top !important;
 }
 
-/* line 60, ../scss/_settings.scss */
+/* line 61, ../scss/_settings.scss */
 .nav-container {
   float: right;
   position: relative;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 50px;
   z-index: 2;
 }
 
-/* line 68, ../scss/_settings.scss */
+/* line 70, ../scss/_settings.scss */
 ul {
   display: block;
   list-style-type: disc;
@@ -75,38 +76,39 @@ ul {
   -webkit-padding-start: 40px;
 }
 
-/* line 78, ../scss/_settings.scss */
+/* line 80, ../scss/_settings.scss */
 li {
   float: left;
   list-style: none;
   display: inline;
 }
 
-/* line 84, ../scss/_settings.scss */
+/* line 86, ../scss/_settings.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 88, ../scss/_settings.scss */
+/* line 90, ../scss/_settings.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 93, ../scss/_settings.scss */
+/* line 95, ../scss/_settings.scss */
 #active {
   border-bottom: 1px solid #888;
 }
 
-/* line 97, ../scss/_settings.scss */
+/* line 99, ../scss/_settings.scss */
 #inactive:hover {
   border-bottom: 1px dashed #888;
 }
 
-/* line 102, ../scss/_settings.scss */
+/* line 104, ../scss/_settings.scss */
 #nav-wrap .nav-container a {
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
+  font-size: 16px;
   text-transform: uppercase;
   margin: 10px 15px;
   float: left;
@@ -118,7 +120,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 117, ../scss/_settings.scss */
+/* line 120, ../scss/_settings.scss */
 .headline {
   font-size: 17px;
   padding: .5em 0 0.8em 0;
@@ -128,15 +130,28 @@ li {
   color: #373737;
 }
 
-/* line 128, ../scss/_settings.scss */
+/* line 131, ../scss/_settings.scss */
 .text-box {
   font-size: 13px;
 }
 
-/* line 132, ../scss/_settings.scss */
-.suit-up-box, .submit {
+/* line 134, ../scss/_settings.scss */
+.suit-up-box {
   color: #fff !important;
-  padding: 5px 20px;
+  padding: 15px 30px;
+  display: inline-block;
+  background: #333;
+  text-transform: uppercase;
+  border-radius: 2px;
+  line-height: 42px;
+  letter-spacing: 1px;
+  font: 500 48px 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+/* line 147, ../scss/_settings.scss */
+.submit {
+  color: #fff !important;
   display: inline-block;
   padding: 7px 12px;
   background: #333;
@@ -147,13 +162,13 @@ li {
   font: 500 18px 'Open Sans', sans-serif;
 }
 
-/* line 145, ../scss/_settings.scss */
+/* line 159, ../scss/_settings.scss */
 #wedding-info {
   font-size: 13px;
   text-align: center;
 }
 
-/* line 150, ../scss/_settings.scss */
+/* line 164, ../scss/_settings.scss */
 #wedding-header {
   margin: 10px 0 0 0;
   font-size: 18px;
@@ -161,7 +176,7 @@ li {
   font-weight: bold;
 }
 
-/* line 157, ../scss/_settings.scss */
+/* line 171, ../scss/_settings.scss */
 .section-header {
   line-height: 180%;
   color: #464646;
@@ -169,17 +184,17 @@ li {
   font-size: 16px;
 }
 
-/* line 164, ../scss/_settings.scss */
+/* line 178, ../scss/_settings.scss */
 .section-content {
   font-size: 13px;
 }
 
-/* line 168, ../scss/_settings.scss */
+/* line 182, ../scss/_settings.scss */
 .row {
   padding: 15px 0 15px 0;
 }
 
-/* line 172, ../scss/_settings.scss */
+/* line 186, ../scss/_settings.scss */
 hr.styled-hr {
   background-color: #eee;
   background-color: rgba(0, 0, 0, 0.13);
@@ -191,7 +206,7 @@ hr.styled-hr {
   text-align: center;
 }
 
-/* line 185, ../scss/_settings.scss */
+/* line 199, ../scss/_settings.scss */
 hr {
   display: block;
   -webkit-margin-before: 0.5em;
@@ -202,7 +217,7 @@ hr {
   border-width: 1px;
 }
 
-/* line 196, ../scss/_settings.scss */
+/* line 210, ../scss/_settings.scss */
 .vertical-divider {
   visibility: hidden;
   position: absolute;
@@ -224,7 +239,7 @@ hr {
   transform: translateX(-10px);
 }
 
-/* line 218, ../scss/_settings.scss */
+/* line 232, ../scss/_settings.scss */
 .party-pics {
   z-index: 10;
   width: 214px;
@@ -235,19 +250,19 @@ hr {
   padding: 0 15px 10px 0;
 }
 
-/* line 228, ../scss/_settings.scss */
+/* line 242, ../scss/_settings.scss */
 .party-desc {
   text-align: left;
   font-size: 14px;
 }
 
-/* line 233, ../scss/_settings.scss */
+/* line 247, ../scss/_settings.scss */
 .thanks-desc {
   text-align: left;
   font-size: 14px;
 }
 
-/* line 241, ../scss/_settings.scss */
+/* line 256, ../scss/_settings.scss */
 .rsvp-panel {
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -255,43 +270,43 @@ hr {
   margin-top: 30px;
 }
 
-/* line 247, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .rsvp-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 252, ../scss/_settings.scss */
+/* line 267, ../scss/_settings.scss */
 .rsvp-panel form input, .rsvp-panel form span {
   height: 50px;
 }
 
-/* line 255, ../scss/_settings.scss */
+/* line 270, ../scss/_settings.scss */
 .rsvp-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 260, ../scss/_settings.scss */
+/* line 275, ../scss/_settings.scss */
 .rsvp-panel p {
   font-size: 13px;
   font-weight: 200;
   margin-left: 25%;
 }
 
-/* line 265, ../scss/_settings.scss */
+/* line 280, ../scss/_settings.scss */
 .rsvp-panel .button {
   margin-left: 35%;
 }
 
-/* line 269, ../scss/_settings.scss */
+/* line 284, ../scss/_settings.scss */
 .incorrect-pw-msg {
   color: red;
 }
 
-/* line 273, ../scss/_settings.scss */
+/* line 288, ../scss/_settings.scss */
 #password {
   width: 400px;
 }
@@ -386,7 +401,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1999,7 +2014,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-size: 1rem;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2706,7 +2721,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4557,7 +4572,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -5250,7 +5265,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5821,7 +5836,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5831,7 +5846,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -6187,7 +6202,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -6211,7 +6226,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 /* line 93, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6397,7 +6412,7 @@ ul.pagination li {
   float: left;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6675,7 +6690,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-size: 1rem;
 }
 /* line 48, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -7117,7 +7132,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -7949,7 +7964,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   font-style: normal;
   color: #222222;
