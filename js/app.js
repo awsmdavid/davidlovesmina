@@ -6,7 +6,6 @@ $('.inactive').hover(function(){
 	$(this).css("border-bottom", "1px solid #888;");
 });
 
-    // alert(CryptoJS.MD5("AOBCD8663"+"2aecc21ce57c973d624175017c3f4616"));
 // rsvp login
 function login() {
 
