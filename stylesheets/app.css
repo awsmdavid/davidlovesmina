@@ -327,6 +327,11 @@ hr {
   width: 400px;
 }
 
+/* line 313, ../scss/_settings.scss */
+.paypal-img:hover {
+  opacity: .7;
+}
+
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";

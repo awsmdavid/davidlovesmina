@@ -30,7 +30,7 @@ function login() {
     }
     // if incorrect password
     else {
-        $('#incorrect-password-message').replaceWith("<span class="+"incorrect-pw-msg panel"+">Incorrect Password,  Please try again!</span>");
+        $('#incorrect-password-message').replaceWith("<span class="+"incorrect-pw-msg panel"+">Incorrect password,  please try again!</span>");
         $('form').get(0).reset();
     }
 }
