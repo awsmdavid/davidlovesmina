@@ -144,6 +144,11 @@ li{
 	cursor: pointer;
 }
 
+// .suit-up-box:hover{
+// 	color: #555555 !important;
+//  https://www.youtube.com/watch?v=OCQsEKOVZFM
+// }
+
 .submit{
 	color: #fff !important;
 	display: inline-block;
@@ -226,6 +231,21 @@ hr {
   -moz-transform: translateX(-10px);
   -ms-transform: translateX(-10px);
   transform: translateX(-10px);
+}
+
+// the mina won
+.gallery img:hover{
+  opacity:0.5;
+  -webkit-transition:0.3s ease;
+  -moz-transition:0.3s ease;
+  -ms-transition:0.3s ease;
+  -o-transition:0.3s ease;
+  transition:0.3s ease;
+}
+
+.gallery li{
+  height:140px;
+  overflow:hidden;
 }
 
 //have you met
@@ -374,8 +394,8 @@ $column-gutter: rem-calc(30);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-// $font-family-sans-serif: 'Open Sans', Helvetica, sans-serif;
-$font-family-sans-serif: Consolas, "Liberation Mono", Courier, monospace;
+$font-family-sans-serif: 'Open Sans', Helvetica, sans-serif;
+// $font-family-sans-serif: Consolas, "Liberation Mono", Courier, monospace;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
