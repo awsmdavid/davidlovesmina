@@ -12,7 +12,7 @@ function login() {
     // set hashword (what hash of (password + random hash) equals)
     var theHashword = "2879a3a3b23a9f5b9ead69529bb5f3c8";
 
-    // enter doubles as submit click
+    // "enter key" also triggers submit click
     $(".content-password").keyup(function(event){
         if(event.keyCode == 13){
             $('#submit-password-button').click();
@@ -29,7 +29,7 @@ function login() {
     }
     // if incorrect password
     else {
-        $('#incorrect-password-message').replaceWith("<span class="+"incorrect-pw-msg panel"+">Incorrect password,  please try again!</span>");
+        $('#incorrect-password-message').replaceWith("<span class="+"incorrect-pw-msg panel"+">Incorrect password, please try again!</span>");
         $('form').get(0).reset();
     }
 }
